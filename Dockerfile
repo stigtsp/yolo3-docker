@@ -1,7 +1,6 @@
-# FROM schickling/opencv
 FROM debian:stretch
-LABEL maintainer="Johannes Schickling <schickling.j@gmail.com>"
-# Based on 
+
+# Based in part on on schickling/opencv by Johannes Schickling <schickling.j@gmail.com>
 ARG OPENCV_VERSION="4.0.1"
 
 # install dependencies
